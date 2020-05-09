@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<liberty-plugin-config>
+    <installDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/target/liberty/wlp</installDirectory>
+    <serverDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/target/liberty/wlp/usr/servers/mvn-webServer</serverDirectory>
+    <userDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/target/liberty/wlp/usr</userDirectory>
+    <serverOutputDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/target/liberty/wlp/usr/servers/mvn-webServer</serverOutputDirectory>
+    <serverName>mvn-webServer</serverName>
+    <configDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/src/main/liberty/config</configDirectory>
+    <configFile>/opt/apache-maven-3.6.3/project3/mvn-web/src/main/liberty/config/server.xml</configFile>
+    <appsDirectory>apps</appsDirectory>
+    <looseApplication>true</looseApplication>
+    <stripVersion>false</stripVersion>
+    <installAppPackages>project</installAppPackages>
+    <applicationFilename>mvn-web.war.xml</applicationFilename>
+    <assemblyArtifact>
+        <groupId>io.openliberty</groupId>
+        <artifactId>openliberty-runtime</artifactId>
+        <version>20.0.0.5</version>
+        <type>zip</type>
+    </assemblyArtifact>
+    <assemblyArchive>/root/.m2/repository/io/openliberty/openliberty-runtime/20.0.0.5/openliberty-runtime-20.0.0.5.zip</assemblyArchive>
+    <assemblyInstallDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/target/liberty</assemblyInstallDirectory>
+    <refresh>false</refresh>
+    <installAppsConfigDropins>/opt/apache-maven-3.6.3/project3/mvn-web/target/liberty/wlp/usr/servers/mvn-webServer/configDropins/defaults/install_apps_configuration_1491924271.xml</installAppsConfigDropins>
+    <projectType>war</projectType>
+    <warSourceDirectory>/opt/apache-maven-3.6.3/project3/mvn-web/src/main/webapp</warSourceDirectory>
+</liberty-plugin-config>

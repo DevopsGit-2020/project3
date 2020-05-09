@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="/opt/apache-maven-3.6.3/project3/mvn-web/src/main/webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="/opt/apache-maven-3.6.3/project3/mvn-web/target/classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="/opt/apache-maven-3.6.3/project3/mvn-web/target/tmp/META-INF/MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>
