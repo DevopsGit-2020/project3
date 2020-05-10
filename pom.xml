@@ -49,6 +49,23 @@
         </dependency>
     </dependencies>
     
+    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>project3</name>
+	      <url>http://54.86.139.248:8081/repository/project3/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>project3-snap</name>
+	      <url>http://54.86.139.248:8081/repository/project3-snap/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+    
+    
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
